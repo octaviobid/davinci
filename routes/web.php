@@ -36,3 +36,5 @@ Route::get('/hola/{name}', function($name){
 Route::view('/vista', 'vista');
 
 Route::view('/vistab', 'vistab');
+
+Route::view('/portfolio', 'portfolio');
